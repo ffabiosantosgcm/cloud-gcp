@@ -15,7 +15,7 @@ resource "google_compute_instance" "vm_instance" {
     }
   }
  network_interface {
-    # A default network is created for all GCP projects
+    # Rede default
     network = "default"
     access_config {
     }
