@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("sound-groove-333122-e550405d0670.json")}"
+  credentials = "${file("seu-xxxxxx.json")}"
   project = "sound-groove-333122"
   region  = "southamerica-east1"
   zone    = "southamerica-east1-a"
